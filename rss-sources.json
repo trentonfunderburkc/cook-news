@@ -1,0 +1,6 @@
+[
+  { "name": "Гастроном.ру", "url": "https://www.gastronom.ru/rss", "category": "Рецепты", "filter": true, "strict": false },
+  { "name": "Поварёнок", "url": "https://www.povarenok.ru/rss/recipes/index.xml", "category": "Рецепты", "filter": true, "strict": false, "encoding": "windows-1251" },
+  { "name": "Меню недели", "url": "https://menunedeli.ru/rss.xml", "category": "Советы", "filter": true, "strict": false },
+  { "name": "АиФ — Еда", "url": "https://aif.ru/rss/food.php", "category": "Продукты и сезон", "filter": true, "strict": false }
+]

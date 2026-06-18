@@ -1,0 +1,39 @@
+{
+  "name": "Кулинария",
+  "tagline": "Рецепты, советы и идеи для домашней кухни",
+  "description": "Пошаговые рецепты, выпечка, супы и салаты, лайфхаки и сезонные продукты для всей семьи",
+  "domain": "cooknews.local",
+  "siteUrl": "https://cooknews.local",
+  "publisher": {
+    "legalName": "Общество с ограниченной ответственностью «Кулинар Медиа»",
+    "shortName": "ООО «Кулинар Медиа»",
+    "inn": "7714892635",
+    "kpp": "771401001",
+    "ogrn": "1187746538921",
+    "ogrnDate": "14 мая 2018 г.",
+    "address": "127015, г. Москва, ул. Новодмитровская, д. 2, корп. 1, офис 417",
+    "postalAddress": "127015, г. Москва, а/я 47",
+    "email": "redakcia@cooknews.local",
+    "adsEmail": "ads@cooknews.local",
+    "pressEmail": "press@cooknews.local",
+    "privacyEmail": "privacy@cooknews.local",
+    "phone": "+7 (495) 632-47-18",
+    "phoneExtra": "+7 (495) 632-47-19",
+    "editorInChief": "Костина Елена Владимировна",
+    "deputyEditor": "Морозов Андрей Петрович",
+    "workHours": "Пн–Пт, 10:00–19:00 (МСК)",
+    "bankDetails": "Р/с 40702810438000123456 в ПАО «Сбербанк», БИК 044525225, к/с 30101810400000000225"
+  },
+  "categories": [
+    { "name": "Рецепты", "slug": "recepty" },
+    { "name": "Выпечка и десерты", "slug": "vypechka-i-deserty" },
+    { "name": "Супы и салаты", "slug": "supy-i-salaty" },
+    { "name": "Советы", "slug": "sovety" },
+    { "name": "Продукты и сезон", "slug": "produkty-i-sezon" }
+  ],
+  "social": {
+    "telegram": "https://t.me/cooknews_media",
+    "vk": "https://vk.com/cooknews_media",
+    "dzen": "https://dzen.ru/cooknews_media"
+  }
+}
