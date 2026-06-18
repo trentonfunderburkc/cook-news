@@ -10,7 +10,7 @@ import { site } from '../../lib/site';
 const base = import.meta.env.BASE_URL;
 ---
 
-<Layout title={`Авторы — ${site.name}`} description="Редакционная команда и авторы портала Гражданин">
+<Layout title={`Авторы — ${site.name}`} description={`Редакционная команда и авторы портала ${site.name}`}>
   <Header slot="header" />
   <Footer slot="footer" />
 
@@ -20,7 +20,7 @@ const base = import.meta.env.BASE_URL;
     <div class="bg-white border border-gray-200 p-6 sm:p-8 mb-8">
       <h1 class="font-headline text-3xl font-bold text-gray-900">Авторы и редакция</h1>
       <p class="mt-2 text-gray-600 max-w-2xl">
-        Материалы портала готовят журналисты и редакторы с опытом работы в социальной тематике.
+        Материалы портала готовят кулинарные журналисты и редакторы с опытом работы в food-медиа.
         Главный редактор — {site.publisher.editorInChief}.
       </p>
     </div>

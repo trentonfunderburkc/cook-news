@@ -41,8 +41,8 @@ const latest = allStories.slice(0, 8);
 
         <section class="bg-white border border-gray-200 p-5">
           <div class="flex items-center justify-between mb-4 pb-3 border-b-2 border-[#c41e3a]">
-            <h2 class="font-headline text-xl font-bold text-gray-900">Лента новостей</h2>
-            <span class="text-xs text-gray-400">{allStories.length} материалов</span>
+            <h2 class="font-headline text-xl font-bold text-gray-900">Лента рецептов</h2>
+            <span class="text-xs text-gray-400">{allStories.length} рецептов</span>
           </div>
 
           <CategoryFilter categories={categories} />
@@ -78,7 +78,7 @@ const latest = allStories.slice(0, 8);
         {currentPage === 1 && allStories.length > 4 && (
           <section class="bg-white border border-gray-200 p-5 lg:hidden">
             <h2 class="font-headline text-lg font-bold text-gray-900 pb-3 mb-3 border-b-2 border-[#c41e3a]">
-              Ещё новости
+              Ещё рецепты
             </h2>
             {allStories.slice(1, 6).map((story) => (
               <StoryListItem story={story} />

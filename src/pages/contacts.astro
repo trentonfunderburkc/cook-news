@@ -9,7 +9,7 @@ const { publisher } = site;
 const base = import.meta.env.BASE_URL;
 ---
 
-<Layout title={`Контакты — ${site.name}`} description="Контактная информация и реквизиты редакции Гражданин">
+<Layout title={`Контакты — ${site.name}`} description={`Контактная информация и реквизиты редакции ${site.name}`}>
   <Header slot="header" />
   <Footer slot="footer" />
 
@@ -90,7 +90,7 @@ const base = import.meta.env.BASE_URL;
         <div class="bg-gray-50 border border-gray-200 p-6 text-sm text-gray-600 leading-relaxed">
           <p class="font-bold text-gray-800 mb-2">Для рекламодателей</p>
           <p>
-            «{site.name}» — информационный ресурс социальной тематики.
+            «{site.name}» — кулинарный информационный ресурс.
             Размещение рекламы осуществляется в соответствии с законодательством РФ
             о рекламе. Рекламные материалы отделены от редакционного контента.
           </p>
