@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 const siteUrl =
   process.env.SITE_URL ||
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://cooknews.local');
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://cooknews.space');
 
 // https://astro.build/config
 export default defineConfig({
